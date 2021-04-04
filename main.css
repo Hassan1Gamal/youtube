@@ -1,0 +1,206 @@
+
+:root {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    --main-color:#252525;
+    --secondary-color:#181818;
+}
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+body {
+    background-color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.fas {
+    color: #5F5F5F;
+}
+h2 { font-size: 22px;
+color: #5F5F5F;}
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    color: #555;
+}
+.current {
+    padding: 8px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+ /* aside */
+ aside {
+     height: 100%;
+     width:200px ;
+     background-color: var(--main-color);
+     padding: 10px 50px;
+     border-radius: 30px;
+     position: relative;
+     bottom: 1528px;
+     left: 1667px;
+ }
+ aside .aside-content .logo {
+     width: 160px;
+     text-align: center;
+     padding: 0;
+ }
+ aside .aside-content .icons .icon {
+     margin-bottom: 30px;
+ }
+ aside .aside-content .images img {
+    width: 25px;
+    border-radius: 50%;
+     margin-right: 10px;
+    
+ }
+
+ aside .aside-content .images .image  {
+margin-bottom: 20px;
+display: flex;
+ 
+ }
+ aside .aside-content .image:hover {
+    background-color:#5F5F5F ;
+    
+ }
+ aside .aside-content .icon:hover  {
+    background-color:#5F5F5F ;
+} 
+/* End aside */
+
+/* Start Navbar  */
+nav .container {
+    padding: 40px 30px;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+ 
+}
+ nav  .icons-bar {
+     display: flex;
+     text-align: center;
+ }
+ nav  .icons-bar .icon-bar {
+     margin-left: 30px;
+ }
+ nav   .icons-bar .icon-bar  {
+     background-color: #393939;
+     padding: 10px 20px;
+     border-radius: 10px;
+    
+ }
+ nav   .icons-bar .icon-bar:hover {
+     background-color:  #5F5F5F ;
+     transition: 0.3s;
+ }
+
+ nav .icons-bar  .fas {
+     color: #A0A0A0;
+ }
+  nav .icon-bar img {
+      width: 30px;
+      border-radius: 50%;
+  }
+  .search input {
+      width: 500px;
+     padding: 20px 40px;
+     border-radius: 20px;
+     background:var(--secondary-color) ;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 600;
+     outline: none;
+     border: none;
+  }
+  .search input::placeholder {
+      font-size: 20px;
+      font-weight: 500;
+     
+  }
+/* <!-- End Navbar --> */
+
+/* <!-- End Navbar --> */
+
+.categories .container  {
+ text-align: center;
+}
+.categories .container .links {
+    display: flex;
+    justify-content:center;
+ margin-top: 30px;
+   position: relative;
+   right: 160px;
+}
+
+.categories .container .links .link {
+    margin-left: 73px;
+justify-content: center;
+     background-color: #272727;
+    padding: 10px 30px;
+    border-radius: 13px; 
+}
+.categories .container .links .link:hover {
+    background-color:  #5F5F5F ;
+    transition: 0.3s;
+}
+
+    /* <!-- Start categories --> */
+    /* <!-- Start videos --> */
+    .video-section .container {
+        display: flex;
+        justify-content: center;
+    }
+     .video-section .container .ad img {
+       width:485% ; 
+      border-radius: 52px;
+     }
+     .video-section .container   .videos {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     position: relative;
+     right: 332px;
+    bottom:-585px;
+     
+     grid-gap: 2rem;
+     }
+     .video-section .container .videos  .video {
+         background-color: #252525;
+         padding: 10px 20px;
+         border-radius: 10px;
+     }
+     .video-section .container   .video .main-img img {
+        
+         border-radius: 30px;
+     }
+     .video-section .container   .video .small-icon {
+         border-radius: 50%;
+         width: 30px;
+     }
+     .video-section .container .video {
+         position: relative;
+     }
+     .video-section .container .video .small-icon {
+         position: absolute;
+         position: absolute;
+    top: 180px;
+    left: 45px;
+    width: 61px;
+     }
+    /* <!-- End videos --> */
